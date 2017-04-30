@@ -1,0 +1,67 @@
+body {
+  background-color: #fcfcfc;
+  font-family: 'Poiret One', cursive;
+  margin: 3rem;
+}
+
+h1, h2, h3, h4 {
+  font-size: 1.3rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-nav {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.header-nav img {
+  margin-bottom: 1rem;
+}
+.header-nav-subtitle {
+  font-size: 1rem;
+  letter-spacing: .05rem;
+}
+.header-nav ul li>a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #979797;
+}
+
+.header-nav-link:hover {
+  color: #f09a1e;
+}
+
+.is-active {
+  color: #f09a1e !important;
+}
+
+.content {
+  margin: 3rem 0;
+}
+
+.profile-pic {
+  margin: 1.3rem 0;
+}
+
+.contact-submit {
+  background-color: #000000;
+  color: #ffffff;
+  padding: .7rem 2rem;
+  font-variant: small-caps;
+  transition: background-color .5s ease;
+}
+.contact-submit:hover {
+  background-color: #f09a1e;
+}
+
+.social-icons:hover {
+  color: #f09a1e;
+}
+
+.artwork img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  overflow: hidden;
+}
+.artwork:hover img {
+  border: 3px solid #f09a1e;
+}
